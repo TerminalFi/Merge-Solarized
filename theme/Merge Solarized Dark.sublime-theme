@@ -49,7 +49,7 @@
         "commitEdge3": "color(var(--orangish) l(- 10%))",
         "commitEdge4": "var(--yellowish)",
         "commitEdge5": "color(var(--cyanish) l(50%))",
-        "sideBarContainerBg": "var(red)",
+        "sideBarContainerBg": "var(accentLight)",
         "sideBarContainerBgWithGraph": "var(accentLight)",
         "tableOfContentsBg": "var(background)",
         "tableOfContentsFg": "var(foreground)",
