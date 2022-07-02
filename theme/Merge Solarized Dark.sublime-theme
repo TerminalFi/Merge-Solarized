@@ -12,7 +12,7 @@
         "branchStatsLabelFg": "var(foreground)",
         "branchStatsLabelBg": "color(var(accentLightest) a(0.75))",
         "titleBarStyle": "dark",
-        "headerBg": "var(background)",
+        "headerBg": "var(accentLight)",
         "headerFg": "var(foreground)",
         "headerButtonBg": "var(accentLight)",
         "iconButtonOpacity": 1,
@@ -56,7 +56,7 @@
         "tableOfContentsHeadingFg": "var(foreground)",
         "tableOfContentsRowBg": "var(accentLight)",
         "tableOfContentsRowBgHover": "var(accentLighter)",
-        "detailPanelBg": "var(background)",
+        "detailsPanelBg": "var(accentLight)",
         "fieldNameFg": "var(foreground)",
         "authorFg": "color(var(foreground) a(0.4))",
         "terminatorFg": "var(foreground)",
@@ -135,7 +135,7 @@
         "toggleButtonBg": "color(var(accentLightest) a(0.5))",
         "toggleButtonFg": "var(foreground)",
         "toggleButtonFgSelected": "var(foreground)",
-        "tabBarBg": "var(background)",
+        "tabBarBg": "var(accentLight)",
         "tabSeparatorBg": "var(accentLighter)",
         "tabBackground": [
             "background",
@@ -2453,7 +2453,7 @@
         },
         {
             "class": "details_panel",
-            "layer0.tint": "var(detailPanelBg)",
+            "layer0.tint": "var(detailsPanelBg)",
             "layer0.opacity": 1
         },
         {
@@ -2510,7 +2510,7 @@
                 4
             ],
             "layer0.opacity": 1,
-            "layer0.tint": "var(detailPanelBg)"
+            "layer0.tint": "var(detailsPanelBg)"
         },
         {
             "class": "scroll_bar_control",
@@ -2551,7 +2551,7 @@
                 "!overlay_scroll_bars"
             ],
             "layer0.opacity": 1,
-            "layer0.tint": "var(detailPanelBg)"
+            "layer0.tint": "var(detailsPanelBg)"
         },
         {
             "class": "diff scroll_area_control",
@@ -2782,7 +2782,7 @@
                     "class": "expand_all_diff_control detail"
                 }
             ],
-            "layer0.tint": "var(detailPanelBg)"
+            "layer0.tint": "var(detailsPanelBg)"
         },
         {
             "class": "file_diff_header",
@@ -2791,7 +2791,7 @@
                     "class": "expand_all_diff_control working"
                 }
             ],
-            "layer0.tint": "var(detailPanelBg)"
+            "layer0.tint": "var(detailsPanelBg)"
         },
         {
             "class": "onion_skin_slider",
@@ -2843,7 +2843,7 @@
                     "class": "expand_all_diff_control staged"
                 }
             ],
-            "layer0.tint": "var(detailPanelBg)"
+            "layer0.tint": "var(detailsPanelBg)"
         },
         {
             "class": "file_diff_header",
